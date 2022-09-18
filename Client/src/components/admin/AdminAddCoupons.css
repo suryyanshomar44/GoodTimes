@@ -1,0 +1,149 @@
+.adminb-ablog {
+  background: #ffffff;
+  box-shadow:0px 0px 30px #ce704914;
+  border-radius: 8px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 2em;
+}
+.adminb-gu {
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #575757;
+  padding-bottom: 1em;
+  cursor: pointer;
+}
+
+.coupon-main {
+  padding-top: 10px;
+}
+
+.coupon-input::placeholder {
+  font-size: 2rem;
+  color: #cbcbcb;
+}
+
+.coupon-input {
+  display: block;
+  font-size: 2rem;
+  width: 100%;
+  border: none;
+  padding: 1em;
+  background: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.coupon-btn {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  background: #ff9900;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5em 3em;
+  left: 40%;
+  right: 50%;
+  position: absolute;
+  width: 300px;
+}
+.From-to-input {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 100%;
+}
+.userp-sec1 {
+  display: inherit;
+  position: relative;
+  margin-left: -20px;
+}
+.selector-image {
+  opacity: -20;
+  position: absolute;
+  margin-top: -200px;
+  height: 202px;
+  width: 191px;
+  cursor: pointer;
+}
+.coupon-img {
+  width: 160px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.upload-txt {
+  color: #7a7a7a;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  margin-left: -25px;
+}
+
+@media (max-width: 1200.9px) {
+  .coupon-img {
+    margin-left: -18px;
+  }
+  .selector-image {
+    height: 200px;
+    width: 146px;
+}}
+
+@media (max-width: 991.9px) {
+  .coupon-img {
+    margin-left: 213px;
+  }
+  .selector-image {
+    width: 160px;
+    margin-left: 215px;
+}}
+
+@media (max-width: 767.9px) {
+  .coupon-img {
+    margin-left: 140px;
+  }
+  .coupon-btn {
+   left: 30%;
+    right: 50%;
+    width: 225px;
+}
+.upload-txt {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.selector-image {
+  height: 183px;
+  margin-left: 144px;
+}
+
+}
+@media (max-width: 550.9px) {
+  .coupon-img {
+    margin-left: 120px;
+  }
+  .coupon-btn {
+   left: 30%;
+    right: 50%;
+    width: 225px;
+}
+.selector-image {
+  margin-left: 119px;
+}
+}
+@media (max-width: 450.9px) {
+  .coupon-img {
+    margin-left: 80px;
+  }
+  .coupon-btn {
+    left: 25%;
+    right: 50%;
+    width: 190px;
+}
+.selector-image {
+  margin-left: 80px;
+}
+
+}

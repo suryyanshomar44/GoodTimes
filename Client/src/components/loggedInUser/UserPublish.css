@@ -1,0 +1,76 @@
+.publish-main {
+  padding-top: 130px;
+}
+
+.publish-head {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.publish-input::placeholder {
+  font-size: 2rem;
+  color: #cbcbcb;
+}
+
+.publish-input {
+  display: block;
+  font-size: 2rem;
+  width: 100%;
+  border: none;
+  padding: 1em;
+  background: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.publish-sthumb {
+  font-size: 2rem;
+}
+
+.publish-thumbnail {
+  padding-bottom: 2em;
+  width: 256px;
+  height: 256px;
+  object-fit: cover;
+}
+
+.publish-btn2 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  background: #ff9900;
+  border-radius: 8px;
+  border: none;
+  margin-top: 1em;
+  padding: 0.5em 3em;
+}
+
+.publish-btn1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  background: #c4c4c4;
+  border-radius: 8px;
+  border: none;
+  margin-top: 1em;
+  margin-right: 1em;
+  padding: 0.5em 3em;
+}
+
+.publish-back {
+  padding: 0em 2em 2em 0em;
+  cursor: pointer;
+}
+
+select:required:invalid {
+  color: #cbcbcb;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+option {
+  color: black;
+}

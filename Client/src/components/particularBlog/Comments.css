@@ -1,0 +1,38 @@
+.cmts-comments {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgb(102 77 253 / 15%);
+  border-radius: 8px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 1em;
+  height: auto;
+  max-height: 17%;
+  margin-top: 1em;
+  overflow: scroll;
+}
+
+/* .cmts-comment {
+  padding-bottom: 1em;
+} */
+
+.cmts-chead {
+  padding-bottom: 1em;
+}
+
+.cmts-user {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.cmts-name {
+  padding-left: 1em;
+  font-size: 1.8rem;
+}
+
+.cmts-cb {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #5b5b5b;
+  padding: 1em 0em 1em 4em;
+}

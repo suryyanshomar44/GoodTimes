@@ -1,0 +1,152 @@
+.ul-list {
+  width: 800px;
+  left: 25%;
+  right: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+.list-name {
+  list-style-type: none;
+  float: left;
+  height: 100px;
+  margin: 0px 20px 0px 150px;
+  width: 374px;
+}
+.list-name:nth-child(even) {
+  margin-right: 0;
+}
+
+.adminc-categories {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgb(102 77 253 / 15%);
+  border-radius: 8px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 2em;
+  /* height: 800px; */
+}
+.edit-category-btn {
+  text-align: end;
+  color: #a3a3a3;
+  margin-top: -30px;
+  float: right;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+.edit-category {
+  text-align: end;
+  color: #000;
+  margin-top: -30px;
+  float: right;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+.edit-category-btn:hover {
+  color: #000;
+}
+.input-groupc {
+  grid-row-start: 2;
+  grid-column-start: 2;
+
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+.gridsystem {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  height: 100%;
+}
+.input-category {
+  width: 70%;
+  background: #f6f6f6;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 12px;
+  color: #00000080;
+  font-weight: 500;
+}
+
+.adminc-input {
+  margin: 0px 20px 10px 159px;
+}
+
+.save-category-btn {
+  padding: 20px;
+  left: 37%;
+  right: 50%;
+  position: relative;
+}
+
+@media (max-width: 1400px) {
+  .list-name {
+    width: 190px;
+  }
+}
+@media (max-width: 1000px) {
+  .list-name {
+    width: 175px;
+    margin: 0px 0px 0px 76px;
+  }
+  .adminc-input {
+    margin: 0px 20px 10px 85px;
+  }
+
+  .save-category-btn {
+    left: 27%;
+  }
+}
+
+@media (max-width: 767px) {
+  .list-name {
+    width: 150px;
+    margin: 0px 0px 0px 50px;
+  }
+  .adminc-input {
+    margin: 0px 20px 10px 53px;
+  }
+}
+.sub-category{
+  width: 10px;
+}
+
+
+.edit-subcategory-btn {
+  text-align: end;
+  color: #a3a3a3;
+  margin-top: 0px;
+  right: 60px;
+  position: absolute;
+  float: right;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+.edit-subcategory {
+  text-align: end;
+  color: #000;
+  margin-top: 0px;
+  right: 60px;
+  position: absolute;
+  float: right;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+.edit-subcategory-btn:hover {
+  color: #000;
+}
+.list-subcat{
+  font-size: 16px;
+}

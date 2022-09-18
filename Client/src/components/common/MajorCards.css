@@ -1,0 +1,42 @@
+
+.major-img {
+  width: 100%;
+  height: 80%;
+  filter: brightness(0.8);
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* .major-col {
+  position: relative;
+}
+
+.major-div {
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  color: white;
+  width: 90%;
+}
+
+.major-heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.major-subheading {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.major-category {
+  color: black;
+  background: #ff9900;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 2px 10px;
+  font-weight: 600;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+} */

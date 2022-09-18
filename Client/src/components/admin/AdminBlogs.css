@@ -1,0 +1,104 @@
+.adminb-main {
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+
+.adminb-greet {
+  padding: 2em;
+}
+
+.adminb-head {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.adminb-shead {
+  color: #a5a5a5;
+  font-size: 2.2rem;
+  margin-bottom: 1em;
+}
+
+.adminb-gu {
+  display: flex;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #575757;
+  padding-bottom: 1em;
+  cursor: pointer;
+}
+
+.adminb-ub {
+  padding-left: 3em;
+}
+
+.adminb-blogs {
+  width: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+.adminb-active {
+  color: #000;
+}
+
+.adminb-ablog {
+  background: #ffffff;
+  box-shadow:0px 0px 30px #ce704914;
+  border-radius: 8px;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 2em;
+}
+
+.adminb-blog {
+  display: flex;
+  padding-bottom: 1em;
+}
+
+.adminb-img {
+  width: 184px;
+  height: 184px;
+  object-fit: cover;
+}
+
+.adminb-blogc {
+  padding: 1em;
+}
+
+.adminb-blogb {
+  color: #5b5b5b;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 1em 0em;
+}
+
+.adminb-ar {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.adminb-rej {
+  color: #ea4335;
+  cursor: pointer;
+}
+.adminb-rej:hover {
+  color: #b41616;
+}
+
+.adminb-app {
+  color: #34a853;
+  padding-left: 3em;
+  cursor: pointer;
+}
+.adminb-app:hover{
+  color: #0a7527;
+}
+
+@media (max-width: 578px) {
+  .adminb-blog {
+    flex-direction: column;
+  }
+}

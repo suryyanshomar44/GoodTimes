@@ -1,0 +1,92 @@
+.inst-main {
+  margin-top: 120px;
+  padding-bottom: 30px;
+}
+
+.inst-sec1 {
+  box-shadow:0px 0px 30px #ce704914;
+  border-radius: 8px;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+
+.inst-sh {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.inst-val {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.inst-name {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.inst-vals {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inst-box {
+  padding: 3em;
+  box-shadow:0px 0px 30px #ce704914;
+  border-radius: 8px;
+  margin-bottom: 3em;
+}
+
+.inst-title {
+  color: #2a6bd9;
+  font-size: 2rem;
+}
+
+.inst-head {
+  color: #2a6bd9;
+  font-size: 1.2rem;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inst-bl {
+  width: 12%;
+}
+
+.inst-bf {
+  width: 50%;
+}
+
+.inst-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inst-bc {
+  display: flex;
+  width: 50%;
+}
+
+.inst-bc > div {
+  padding-left: 1em;
+}
+
+.inst-bt {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.inst-bp {
+  color: #ababab;
+}
+
+.inst-num {
+  color: #5b5b5b;
+  font-size: 2rem;
+}
+.user-img {
+  width: 127px;
+  height: 75px;
+  object-fit: cover;
+}

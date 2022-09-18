@@ -1,0 +1,37 @@
+.contact-main {
+  padding-top: 130px;
+}
+
+.contact-img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); */
+  border-radius: 8px;
+}
+
+.contact-input::placeholder {
+  font-size: 2rem;
+  color: #cbcbcb;
+}
+
+.contact-input {
+  display: block;
+  font-size: 2rem;
+  width: 100%;
+  border: none;
+  padding: 1em;
+  background: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.contact-btn {
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  background: #ff9900;
+  border-radius: 8px;
+  border: none;
+  padding: 0.5em 3em;
+}

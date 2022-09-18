@@ -1,0 +1,61 @@
+.pb-main {
+  padding-top: 130px;
+}
+
+.pb-sec1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pb-back {
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.pb-sec2 {
+  padding: 1.4em 0em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+@media (max-width: 455px) {
+  .pb-sec2 {
+    flex-direction: column;
+  }
+
+  .pb-right {
+    padding-top: 1em;
+  }
+}
+
+.pb-sm {
+  padding: 0em 1em;
+}
+
+.pb-sec3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+.pb-sec3 > span {
+  padding-right: 1em;
+}
+
+.pb-writing {
+  padding-top: 0em;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #5b5b5b;
+  text-align: justify;
+}
+
+.pb-img {
+  padding-top: 4em;
+  width: 100%;
+}

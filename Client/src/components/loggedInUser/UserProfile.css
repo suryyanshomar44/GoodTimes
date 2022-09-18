@@ -1,0 +1,109 @@
+.userp-main {
+  padding-top: 120px;
+  max-width: 900px !important;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.userp-sec1 {
+  display: flex;
+  font-size: 2rem;
+}
+
+.userp-addimg {
+  position: relative;
+}
+
+.userp-user {
+  width: 150px;
+  cursor: pointer;
+}
+
+.userp-add {
+  position: absolute;
+  bottom: 30px;
+  right: 10px;
+}
+
+.userp-avatari {
+  display: none;
+}
+
+.userp-avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.userp-nr {
+  width: 100%;
+  padding: 1em;
+}
+
+.userp-nr > input {
+  width: 100%;
+  border: none;
+  background: #f6f6f6;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.userp-nr > input::placeholder {
+  color: #b1b1b1;
+}
+
+.userp-ta::placeholder {
+  color: #b1b1b1;
+}
+
+.userp-rating {
+  padding: 1em 0em;
+}
+
+.userp-rating > span {
+  padding-right: 1em;
+}
+
+.userp-ta {
+  background: #f6f6f6;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+  font-size: 2rem;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.userp-btns {
+  text-align: right;
+  margin-top: 2em;
+}
+
+@media (max-width: 374px) {
+  .userp-btns {
+    text-align: left;
+  }
+
+  .userp-veri {
+    margin-bottom: 1em;
+  }
+}
+
+.userp-btn {
+  border: none;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+}
+
+.userp-veri {
+  background: rgba(68, 104, 226, 0.3);
+  margin-right: 1em;
+}
+
+.userp-save {
+  background: #ff9900;
+  color: white;
+}

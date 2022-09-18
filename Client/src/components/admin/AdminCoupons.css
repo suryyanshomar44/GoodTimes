@@ -1,0 +1,268 @@
+.adminv-main {
+  margin-top: 120px;
+  padding-bottom: 150px;
+}
+.adminv-greet {
+  padding: 2em;
+}
+.adminv-head {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.adminv-shead {
+  color: #a5a5a5;
+  font-size: 2.2rem;
+  margin-bottom: 1em;
+}
+.serch-head {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  height: 100%;
+}
+.btn-primary {
+  width: 200px;
+  height: 45px;
+  background-color: #ff9900 !important;
+  border-radius: 5px !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+.search-input {
+  width: 330px !important;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-column-end: 6;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-bottom: 2px solid #a5a5a5 !important;
+  font-size: 17px !important;
+}
+.search-icon {
+  color: #a5a5a5 !important;
+  margin-top: 8px;
+  margin-left: -23px;
+  font-size: 18px;
+}
+.Trend-text {
+  font-size: 22px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+
+
+.ccoupon-image {
+  height: 40%;
+  width: 100%;
+  margin-top: -25px;
+  margin-left: -17px;
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 2;
+  grid-column-end: 4;
+}
+.card-coupon-img {
+  width: 185px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+ 
+}
+.adminv-card {
+  font-size: 2.2rem;
+  font-weight: 500;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.cc-cards {
+  text-align: center;
+  padding: 1em;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  background: #ffffff;
+  box-shadow: 0px 0px 50px rgba(102, 77, 253, 0.15);
+  font-size: 2.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 30px;
+  margin-left: 0px;
+  height: 17.6em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  overflow: hidden;
+}
+
+.cc-expire-cards {
+  text-align: center;
+  padding: 1em;
+  box-shadow: 0px 0px 50px rgba(102, 77, 253, 0.15);
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  background: #ff9900;
+  font-size: 2.2rem;
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 30px;
+  margin-left: 0px;
+  height: 17.6em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px;
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .cc-cards {
+    width: 18em !important;
+  }
+  .cc-expire-cards {
+    width: 18em !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .cc-cards {
+    height: 22em;
+  }
+  .cc-expire-cards {
+    height: 22em;
+  }
+}
+
+.cc-cdh {
+  padding-top: 1em;
+  font-size: 1.8rem;
+  font-weight: 500;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 5;
+  grid-row-end: 2;
+}
+
+.cc-cdsh {
+  margin-top: 80px;
+  padding: 0em 0em;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #a3a3a3;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+.web-font {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+.text-visit {
+  color: #ff9900;
+  float: left;
+  text-decoration: none;
+}
+.text-days {
+  color: #000;
+  float: right;
+}
+.text-expire-days {
+  color: #a3a3a3;
+  float: right;
+}
+
+.btn-edit-delete {
+  margin-top: 50px;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+.delete-btn {
+  float: right;
+  border: none;
+  color: #ffffff;
+  background: #f13d2c;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  width: 120px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 45px;
+}
+.edit-btn {
+  float: left;
+  border: none;
+  color: #ffffff;
+  background: #c4c4c4;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  width: 120px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 45px;
+}
+.edit-btn:hover {
+  background: #858282;
+}
+
+.delete-btn:hover {
+  background: #a32c21;
+}
+@media (max-width: 500px) {
+  .delete-btn {
+    width: 90px;
+    height: 35px;
+  }
+  .edit-btn {
+    width: 90px;
+    height: 35px;
+  }
+}
+.More-coupon{
+  float: right;
+  border: none;
+  color: #ffffff;
+  background: #f13d2c;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  width: 200px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 55px;
+}
+.More-coupon:hover {
+  background: #a32c21;
+}
+.btn-store{
+  width: 200px;
+  height: 45px;
+  background-color: #ff9900 !important;
+  border-radius: 5px !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 3;
+}

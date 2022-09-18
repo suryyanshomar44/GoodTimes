@@ -1,0 +1,52 @@
+.adminsb-main {
+  background-color: #ff9900;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  padding-top: 80px;
+  width: 300px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: white;
+  z-index: 1;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: #ff9900;;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background-color:#ff9900;
+}
+
+.adminsb-back {
+  padding-right: 0.5em;
+}
+
+.adminsb-li:hover {
+  color: white;
+}
+
+.adminsb-ul {
+  list-style: none;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.adminsb-home {
+  padding: 1em 1em 0.6em 1em;
+  display: flex;
+}
+
+.adminsb-li {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0.5em;
+}
+
+.adminsb-active {
+  color: white;
+}

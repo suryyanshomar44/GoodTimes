@@ -1,0 +1,141 @@
+.list-heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  cursor: default;
+}
+
+.list-subheading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #8c8c8c;
+}
+
+.list-rows {
+  margin-bottom: 1em;
+}
+
+.list-explore {
+  font-size: 3.2rem;
+  font-weight: 600;
+  padding-bottom: 1em;
+  cursor: default;
+}
+
+.list-explore > span {
+  color: #ff9900;
+}
+
+.list-main-img {
+  height: 100%;
+  width: 100%;
+}
+.list-img-landing {
+  width: 120px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.navlink-css {
+  text-decoration: none;
+  color: #000;
+}
+.navlink-css:hover {
+  text-decoration: none;
+  color: #ff9900;
+}
+@media (max-width: 1400px) {
+  .list-img-landing {
+    width: 110px;
+  }
+}
+@media (max-width: 1200px) {
+  .list-img-landing {
+    width: 95px;
+  }
+}
+@media (max-width: 991.9px) {
+  .list-img-landing {
+    width: 160px;
+    height: 120px;
+  }
+}
+@media (max-width: 767.9px) {
+  .list-img-landing {
+    width: 120px;
+    height: 90px;
+  }
+}
+@media (max-width: 525.9px) {
+  .list-img-landing {
+    width: 90px;
+    height: 80px;
+  }
+}
+@media (max-width: 395.9px) {
+  .list-img-landing {
+    width: 70px;
+    height: 60px;
+  }
+}
+.read-more-text {
+  color: #ff9900;
+}
+.read-more-text:hover {
+  color: #ff9900;
+}
+.cookies-section {
+  padding: 23px 33px 25px 78px !important;
+  position: fixed;
+  font-size: 16px;
+  background: #cfdcfa;
+  margin: 0px 0px 0px 7px;
+  bottom: -10px;
+  border-radius: 10px;
+  z-index: 100;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+}
+.cookies-btn {
+  border-radius: 10px !important;
+  width: 12em !important;
+  outline: none;
+  border: none;
+  font-size: 15px !important;
+  height: 40px;
+  font-weight: bold;
+  margin: 10px;
+  background-color:#ff9900!important;
+}
+.cookies-btn:hover{
+  background-color:#2f53c9!important;
+}
+.cookies-btn-save {
+  border-radius: 10px !important;
+  width: 12em !important;
+  outline: none;
+  border: none;
+  font-size: 15px !important;
+  height: 40px;
+  font-weight: bold;
+  margin: 10px;
+}
+.cookies-btn-save:hover{
+  background-color:rgb(241, 239, 239) !important;
+}
+@media (max-width:640px) {
+  
+
+.cookies-section {
+  padding: 23px 33px 25px 8px!important;
+  position: fixed;
+  font-size: 16px;
+  background: #cfdcfa;
+  margin: 0px 0px 0px 7px;
+  bottom: -10px;
+  border-radius: 10px;
+  z-index: 100;
+  cursor: pointer;
+  width: 100%;
+  display: grid;
+}}

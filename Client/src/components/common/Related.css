@@ -1,0 +1,39 @@
+.related-main{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    cursor: default;
+}
+
+.related-heading {
+  font-size: 2.4rem;
+  font-weight: 500;
+  background: #fff4e3;
+  border-radius: 8px;
+  padding: 1em;
+  text-align: center;
+}
+
+.related-content {
+  background: #fff8ed;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.related-odd {
+  color: rgba(22, 20, 20, 0.493);
+  padding-bottom: 1em;
+}
+.related-content:nth-child(odd){
+  background: #fff8ed;
+  }
+.related-odd:hover{
+  color: #ff9900;
+}
+
+/* .related-even {
+  color: #ff9900;
+  padding-bottom: 1em;
+} */

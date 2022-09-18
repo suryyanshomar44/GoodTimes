@@ -1,0 +1,68 @@
+.pre-main {
+  padding-top: 130px;
+}
+
+.pre-sec1 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.pre-back {
+  margin-right: 1em;
+}
+
+.pre-sec2 {
+  padding: 3em 0em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+@media (max-width: 455px) {
+  .pre-sec2 {
+    flex-direction: column;
+  }
+
+  .pre-right {
+    padding-top: 1em;
+  }
+}
+
+.pre-sm {
+  padding: 0em 1em;
+}
+
+.pre-sec3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #7a7a7a;
+  margin-bottom: 1em;
+}
+
+.pre-sec3 > span {
+  padding-right: 1em;
+}
+
+.pre-body {
+  font-size: 2rem;
+}
+
+.pre-body > p > img {
+  width: 100%;
+}
+/* 
+.pre-writing {
+  padding-top: 2em;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #5b5b5b;
+  text-align: justify;
+}
+
+.pre-img {
+  padding-top: 4em;
+  width: 100%;
+} */
